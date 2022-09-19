@@ -1,4 +1,5 @@
 import winston from "winston";
+import {join} from "path";
 
 export const logger = winston.createLogger({
     format:winston.format.combine(
@@ -18,5 +19,10 @@ export const logger = winston.createLogger({
     ),
     transports:[
         new winston.transports.Console(),
+        new winston.transports.File({
+            dirname : join(__dirname, "../../../var/log"),
+            filename : 'error.log',
+            level : "error"
+        })
     ],
 })

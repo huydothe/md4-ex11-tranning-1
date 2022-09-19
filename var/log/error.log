@@ -1,0 +1,22 @@
+[2022-09-19 19:55:20] [[31merror[39m] Error: Error test winston
+    at G:\untitled109\dist\index.js:15:15
+    at Layer.handle [as handle_request] (G:\untitled109\node_modules\express\lib\router\layer.js:95:5)
+    at next (G:\untitled109\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (G:\untitled109\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (G:\untitled109\node_modules\express\lib\router\layer.js:95:5)
+    at G:\untitled109\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (G:\untitled109\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\untitled109\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (G:\untitled109\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (G:\untitled109\node_modules\express\lib\router\layer.js:95:5)
+[2022-09-19 19:55:43] [[31merror[39m] Error: Error test winston
+    at G:\untitled109\dist\index.js:15:15
+    at Layer.handle [as handle_request] (G:\untitled109\node_modules\express\lib\router\layer.js:95:5)
+    at next (G:\untitled109\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (G:\untitled109\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (G:\untitled109\node_modules\express\lib\router\layer.js:95:5)
+    at G:\untitled109\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (G:\untitled109\node_modules\express\lib\router\index.js:346:12)
+    at next (G:\untitled109\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (G:\untitled109\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (G:\untitled109\node_modules\express\lib\router\layer.js:95:5)
